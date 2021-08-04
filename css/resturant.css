@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+*{margin: 0;padding:0;}
+/*****Header section
++++++++++++++++++++++++++++++++++++*/
+header{
+    overflow: hidden;
+   background-color: #6888B1;
+}
+.nav-menu{
+    justify-content: flex-end;
+}
+.nav-menu ul{
+    display: contents;
+}
+.navbar-brand{
+    width: 170px;
+}
+.nav-menu ul .nav-link{
+    font-size: 20px;
+    margin: 0px 10px;
+    color: white !important;
+}
+.nav-link .active{
+    color: #000 !important;
+}
+.nav-item .nav-link:hover{
+    color: rgb(224, 224, 224) !important;
+}
+header.sticky{
+    z-index: 99;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;background:#202B30;
+    transition:all .5s ease-in-out;
+  }
+  /***banner section*****/
+  /****-----------------------**/
+  .wrapper{
+      background: url(../images/shape1.png);
+      position: relative;
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-position-y: 100%;
+      padding-bottom: 100px;
+  }
+  .wrapper .banner-content{
+      justify-content: center;
+      width: 400px;
+      text-align: center;
+      margin: 100px auto;
+  }
+  .banner-content h2{
+      color: #fff;
+      font-size: 60px;
+      font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+    }
+  .banner-content p{
+      width: 80%;
+      margin: auto;
+      display: block;
+      color: #fff;
+  }
+  .long-shape{
+    width: 5%;
+      position: absolute;
+      bottom: 120px;
+      right: 15px;
+  }
+  .dot-shape{
+    width: 15%;
+      position: absolute;
+      bottom: -30px;
+      left: 100px;
+  }
+    /***Popular menu section*****/
+  /****-----------------------**/
+  .popular-menu {
+      position: relative;
+    margin-top: -715px;
+    z-index: -1;
+    padding: 810px 0px 0px 0px;
+    background: url(../images/yeallo\ shape.png);
+}
+  .popular-menu .menu-item{
+      background: #fff;
+  }
+  .popular-menu h2{
+      color: #7287ae;
+      margin-bottom: 5rem;
+  }
+  .menu-wrapper{
+      position: relative;
+      padding-bottom: 50px;
+  }
+  .menu-item img{
+      width: 100%;
+  }
+  .menu-item .food-details{
+      padding: 15px;
+  }
+  .menu-item h3{
+      color: #504f4f;
+  }
+  .menu-item p{
+      color: #504f4f;
+  }
+  .menu-item b{
+      color: #504f4f;
+  }
+  .button a{
+      font-size: 19px;
+      margin-top: 50px;
+    display: inline-block;
+    padding: 6px 35px;
+    border-radius: 25px;
+    color: #fff;
+    background: #6888B1;
+  }
+  .button a:hover{
+      background: #dddd;
+      color: #7287ae;
+  }
+  .menu-wrapper .shape {
+    width: 8%;
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+  }
+     /***Discount section*****/
+  /****-----------------------**/
+  .discount{
+      overflow: hidden;
+      display: block;
+      width: 100%;
+  }
+  .food-image {
+    position: relative;
+}
+.food-image .img{
+    width: 100%;
+}
+.discount-details {
+    width: 345px;
+    justify-self: center;
+    margin: 50px;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    justify-content: center;
+}
+.discount-details h2 {
+    font-size: 40px;
+    color: #333333;
+    font-weight: 400;
+}
+.discount-details p{
+    display: inline-block;
+    margin: 10px 0px;
+    color: #333333;
+}
+.food-image .bottom-design {
+    position: absolute;
+    right: 130px;
+    bottom: -36px;
+}
+     /***Discount section*****/
+  /****-----------------------**/
+.order{
+    padding: 50px;
+    background: #6888B1;
+}
+.order .title{
+        margin-bottom: 6rem;
+        color: #fff;
+        font-size: 40px;
+    }
+.order .item{
+    margin-top: 2rem;
+    color: #fff;
+}
+.item h3 {
+    display: inline-block;
+    color: #6888B1;
+    background: #fff;
+    padding: 20px 23px;
+    border-radius: 50%;
+}
+.item h2{
+    margin: 20px 0px;
+}
+ /***Delivery section*****/
+  /****-----------------------**/
+.delivery{
+    background: url(../images/food-bg.jpg),#dfe9c1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.delivery .delivery-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-flow: column;
+    width: 500px;
+}
+.delivery-content h2{
+    color: #6888B1;
+    font-size: 40px;
+}
+.delivery-content p{
+    display: inline-block;
+    color: #6888B1;
+    margin-top: 3rem;
+}
+.delivery .container{
+    position: relative;
+}
+.delivery-content .button a{
+    padding: 10px 65px;
+    font-size: 22px;
+}
+.shape-design{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+     /***testemonial section*****/
+  /****-----------------------**/
+.testimonial{
+    background: #dfe9c1;
+    padding: 5rem 0rem;
+}
+.testimonial .testimonial-text{
+    width: 400px;
+    margin: auto;
+}
+.testimonial-text i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    display: inline-block;
+    color: #333333;
+    color: #6888B1;
+}
+.testimonial-text p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #6888B1;
+}
+.testimonial-text h3{
+    margin: 20px 0px;
+    color: #6888B1;
+}
+     /***footer section*****/
+  /****-----------------------**/
+.footer{
+    background: #dfe9c1;
+}
+footer .container{
+    position: relative;
+}
+.footer-shape{
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+  footer{
+      padding-bottom: 50px;
+      background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(../images/footerShape.png);
+}
+.social-icon a {
+    background: #7287ae;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 2;
+    height: 45px;
+    width: 45px;
+    color: #dfe9c1;
+    font-size: 23px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+footer h3{
+    color: #fff;
+}
+footer p{
+    display: inline-block;
+    width: 200px;
+    color: #dfdfdf;
+}
+footer  ul{
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+footer  ul li{}
+footer  ul li a{
+    display: inline-block;
+    color: #dfdfdf;
+    text-decoration: none;
+}
+footer  ul li a:hover{
+    color: #a3b1ca;
+}
+.footer-menu {
+    padding-top: 40%;
+}
+.footer-menu .col-md-6{
+    width: 50%;
+}

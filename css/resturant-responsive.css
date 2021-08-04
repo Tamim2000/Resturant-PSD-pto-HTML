@@ -1,0 +1,51 @@
+/*** design responsive for most uses devices***/
+@media only screen and (max-width: 768px) {
+    footer {
+        background: url(../images/footerShape.png)60%;
+    }
+    .navbar-brand img{
+        width: 100%;
+        }
+    .discount-details{
+        margin-left: 10px;
+        height:80%;
+    }
+    .delivery-content.text-center{
+        width: 80%;
+    }
+    .footer-menu{
+    padding-top: 50%;
+}
+    img.footer-shape{
+    width: 25%;
+}
+
+}
+@media only screen and (max-width: 414px) {
+    footer {
+        background: url(../images/footerShape.png)60%;
+    }
+    .testimonial-text.text-center{
+        width: 80%;
+    }
+    .banner-content h2 {
+        font-size: 35px;
+        width: 100%;
+        font-weight: 400;
+    }
+    .wrapper .banner-content {
+        width: 100%;
+    }
+    .discount-details{
+        margin-left: 20px;
+    }
+    .navbar-brand img{
+    width: 50%;
+    }
+    .discount-details h2 {
+        font-size: 25px;
+    }
+    footer p {
+        width: 100%;
+    }
+}
